@@ -54,10 +54,10 @@ if __name__ == '__main__':
   # 0: route
   # 1: obstacle or the place user took
   puzzle = [[1, 1, 0, 0, 0],\
-          [1, 1, 1, 1, 0],\
-          [0, 0, 0, 1, 0],\
-          [0, 0, 0, 0, 0],\
-          [0, 0, 0, 0, 0]]
+            [1, 1, 1, 1, 0],\
+            [0, 0, 0, 1, 0],\
+            [0, 0, 0, 0, 0],\
+            [0, 0, 0, 0, 0]]
   
   for row_index in range(len(puzzle)):
     for col_index in range(len(puzzle[0])):
